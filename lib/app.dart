@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgetbook_challenge/page/home_page.dart';
 
 /// The app.
 class App extends StatelessWidget {
@@ -14,7 +15,7 @@ class App extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Interview Challenge'),
         ),
-        body: const Text('Hello Flutter enthusiast!'),
+        body: const HomePage(),
       ),
     );
   }
